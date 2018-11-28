@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2E3145</color>
+    <color name="colorPrimaryDark">#2E3145</color>
+    <color name="colorAccent">#7B4EE1</color>
+
+    <color name="colorBack">#1C2035</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteHalf">#99ffffff</color>
+
+    <color name="colorLine">#616372</color>
+
+    <color name="color99">#999999</color>
+
+    <color name="colorCC">#CCCCCC</color>
+    <color name="colorCcClick">#99CCCCCC</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="color10455A">#40455A</color>
+
+    <color name="color5ACCC6">#5ACCC6</color>
+
+
+    <color name="color737582">#737582</color>
+
+    <color name="color45485A">#45485A</color>
+    <color name="color272A3F">#272A3F</color>
+
+    <color name="color606378">#606378</color>
+
+
+    <color name="colorYellow">#FFAE1D</color>
+    <color name="colorYellowClick">#b27914</color>
+
+    <color name="colorItem">#25293d</color>
+    <color name="colorItemClick">#191d30</color>
+
+
+    <color name="colorRed">#E1454F</color>
+    <color name="colorRedClick">#a0121b</color>
+    <color name="colorGreen">#2CB25A</color>
+    <color name="colorGreenClick">#086016</color>
+
+
+    <color name="colorListItemClick">#282B3F</color>
+
+    <color name="colorAccentClick">#56369d</color>
+
+    <color name="transparent_half">#80000000</color>
+    <drawable name="transparent_half">#66000000</drawable>
+    <drawable name="transparent_all">#00000000</drawable>
+    <drawable name="colorBack">#2E3145</drawable>
 </resources>
