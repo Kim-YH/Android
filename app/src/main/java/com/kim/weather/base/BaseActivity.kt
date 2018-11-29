@@ -6,9 +6,7 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.view.View
-import android.widget.Toast
 
 /**
  *
@@ -17,7 +15,7 @@ abstract class BaseActivity : AppCompatActivity(), View.OnClickListener {
     private val TAG = javaClass.simpleName
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        logError(" onCreate")
+        logE(TAG, " onCreate")
         super.onCreate(savedInstanceState)
     }
 
@@ -29,17 +27,6 @@ abstract class BaseActivity : AppCompatActivity(), View.OnClickListener {
         return resources
     }
 
-    fun AppCompatActivity.toast(msg: String) {
-        Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
-    }
-
-    fun AppCompatActivity.log(mag: String) {
-        Log.i(TAG, mag)
-    }
-
-    fun AppCompatActivity.logError(mag: String) {
-        Log.e(TAG, mag)
-    }
 
     fun addFragmentToActivity(fragmentManager: FragmentManager,
                               fragment: Fragment, frameId: Int) {

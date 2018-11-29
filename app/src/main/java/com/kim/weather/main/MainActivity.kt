@@ -5,6 +5,8 @@ import android.view.KeyEvent
 import android.view.View
 import com.kim.weather.R
 import com.kim.weather.base.BaseActivity
+import com.kim.weather.base.toast
+import com.kim.weather.okhttp.OkHttpUtils
 
 class MainActivity : BaseActivity() {
 
@@ -21,7 +23,7 @@ class MainActivity : BaseActivity() {
             addFragmentToActivity(supportFragmentManager, mainFragment, R.id.contentFrame)
         }
 
-        MainPresenter(mainFragment)
+        MainPresenter(mainFragment, OkHttpUtils.instance!!)
     }
 
     override fun onClick(v: View?) {

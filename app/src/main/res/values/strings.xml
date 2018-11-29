@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="back_again">再按一次 退出应用</string>
+
+
+    <string name="network_error">系统繁忙请稍候再试</string>
+    <string name="network_time_out">网络连接超时，请稍后再试</string>
+
 </resources>
